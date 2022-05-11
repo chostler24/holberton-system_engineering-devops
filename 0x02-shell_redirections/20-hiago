@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type c [C c] -delete
+tr -d [[C c]]
