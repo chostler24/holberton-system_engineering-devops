@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 # This script displays the content of the current directory (not including hidden files) in a list format, where only the part of the name after the first dash is displayed. It uses the for loop.
 
-for file in ./*
+for i in ./*
 do
+    echo "$i" | cut -d"-" -f 2
+done
+
     
