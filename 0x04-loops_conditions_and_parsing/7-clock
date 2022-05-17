@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script displays the time for 12 hours and 59 minutes using the while loop
+
+H=0
+M=1
+while [ $H -lt 12 ]; do
+    
+    echo $
+
+    case 

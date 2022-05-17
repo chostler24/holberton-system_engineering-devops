@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# this script displays Best School 10 times using the while loop and the if, elif and else statements. It displays bad luck for the 4th loop and good luck for the 8th loop.
+
+i=1
+
+while [ $i -le 10 ]; do
+
+      	   if [ $i -eq 4 ]; then
+	       echo "bad luck"
+	       i=$((i + 1))
+	   elif [ $i -eq 8 ]; then
+	       echo "good luck"
+	       i=$((i + 1))
+	   else
+	       echo "Best School"
+	       i=$((i + 1))
+	   fi
+
+done
