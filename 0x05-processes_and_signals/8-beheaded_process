@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # This script kills the process 7-highlander.
 
-trap '' ERR
+trap '7-highlander'
 pkill -f 7-highlander
